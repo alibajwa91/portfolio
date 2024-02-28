@@ -1,0 +1,46 @@
+.footer {
+    background-color: rgb(39, 39, 116);
+    height: fit-content;
+}
+
+.footerWrapper {
+    display: flex;
+    padding: 23px;
+    justify-content: space-evenly;
+}
+
+.footerListItems {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerListItem {
+    margin-top: 12px;
+}
+
+.right-reserved {
+    justify-content: center;
+    text-align: center;
+    background-color: purple;
+}
+
+.footer-first {
+    padding-top: 52px;
+    color: white;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.footer a:hover {
+    color: #c392e6;
+    font-weight: 900;
+}

@@ -1,0 +1,41 @@
+.aboutWrapper {
+    background-color: rgb(2, 2, 78);
+    color: white;
+    /* height: 100vh; */
+}
+
+.about-firstsection {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.circular-img {
+    width: 19vw;
+    /* height: 19vh; */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 160px 26px;
+}
+
+.circular-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mainAbout {
+
+    text-align: center;
+    padding: 132px 0px;
+    width: 40vw;
+}
+
+.about-title {
+    padding: 0px 0px 23px 0px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: cursive;
+}

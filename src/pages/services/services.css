@@ -1,0 +1,35 @@
+.servicesMain {
+    background-color: rgb(2, 2, 78);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.servicesSection {
+    height: 120vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.services {
+    width: 320px;
+    height: fit-content;
+    border: 2px solid #9c2cc1;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(253 253 253);
+    padding: 9px;
+    margin-top: 90px;
+}
+
+.services h1 {
+    font-family: cursive;
+    color: #9c2cc1;
+}
+
+@media(max-width:690px) {
+
+    .servicesSection {
+        height: 140vh;
+    }
+}

@@ -1,0 +1,137 @@
+.homeWrapper {
+    background-color: rgb(2, 2, 78);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.firstSection {
+    width: 100%;
+    height: 64vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 45px 0; */
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 1.75rem;
+}
+
+.button {
+    display: flex;
+}
+
+.leftSection .btn,
+.btn {
+    margin-top: 23px;
+    height: 35px;
+    width: 100px;
+    background-color: #9c2cc1;
+    color: white;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px rgb(253 253 253);
+}
+
+.leftSection .btn,
+.btn:hover {
+    height: 40px;
+    width: 105px;
+}
+
+.rightSection img {
+    padding-top: 23px;
+    width: 130%;
+    height: 347px;
+}
+
+.purple {
+    color: rgb(174, 109, 218);
+    font-weight: bold;
+}
+
+#element {
+    color: rgb(174, 109, 218);
+}
+
+.divideSections {
+    border: 0;
+    background-color: rgb(174, 109, 218);
+    height: 2.23px;
+    margin: 84px 127px 60px 127px;
+}
+
+.secondSection {
+    height: 100%;
+    padding-bottom: 23px;
+}
+
+.listItems {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    margin: 60px;
+    border: solid 2px rgb(161, 144, 144);
+    border-radius: 12px;
+    justify-content: space-evenly;
+    background-color: rgb(165, 29, 165);
+}
+
+.listItem {
+    width: 14vw;
+
+}
+
+.vertical-title {
+    font-weight: bolder;
+    margin-bottom: 23px;
+    color: #270146;
+}
+
+.vertical-desc {
+    font-size: 13px;
+}
+
+.image-top {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 18px;
+
+}
+
+.secondSectionTitle {
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
+
+/* responiveness */
+
+@media (max-width: 690px) {
+    .firstSection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .rightSection img {
+        padding-top: 71px;
+        width: 123%;
+        height: 267px;
+    }
+
+    .firstSection>div {
+        width: 203px;
+    }
+
+    .listItems {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .listItem {
+        padding: 0 20px;
+    }
+}

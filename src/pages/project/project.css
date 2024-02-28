@@ -1,0 +1,43 @@
+/* project page */
+.projectWrapper {
+    background-color: #2b0446;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.project-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 13vh 55px;
+}
+
+.project-main .img-:hover {
+    height: 130px;
+    width: 126px;
+
+}
+
+.img- {
+    height: 124px;
+    width: 120px;
+}
+
+.project {
+    display: flex;
+}
+
+.project-desc {
+    padding-top: 23px;
+}
+
+.clicklogo {
+    font-family: auto;
+}
+
+@media(max-width:690px) {
+    .projectWrapper {
+        position: absolute;
+    }
+}
